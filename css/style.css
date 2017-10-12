@@ -1,17 +1,24 @@
-.header{
+.header, .nav{
   display: inline-flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: black;
   align-items: center;
+  flex: 50% auto 300px;
 }
 
-#headline{
+.header h4{
   color: MediumAquamarine;
   align-content: flex-start;
 }
 
 .header img{
   align-content: flex-start;
+}
+
+.nav{
+  align-content: flex-end;
+}
+
 }
