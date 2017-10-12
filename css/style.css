@@ -8,12 +8,12 @@
   flex: 50% auto 300px;
 }
 
-.header h4{
+h4.header{
   color: MediumAquamarine;
   align-content: flex-start;
 }
 
-.header img{
+img.header{
   align-content: flex-start;
 }
 
@@ -21,4 +21,10 @@
   align-content: flex-end;
 }
 
+p{
+  font-family: Garamond;
+  font-size: 18px;
+  font-weight: 100;
+  color: aliceblue;
+  border: 1px solid green;
 }
