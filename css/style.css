@@ -1,11 +1,17 @@
-header{
+.header{
   display: inline-flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine;
+  color: black;
+  align-items: center;
 }
 
-.nav a{
-  color: black;
+#headline{
+  color: MediumAquamarine;
+  align-content: flex-start;
+}
+
+.header img{
+  align-content: flex-start;
 }
